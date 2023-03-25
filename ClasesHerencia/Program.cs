@@ -25,21 +25,27 @@ namespace ClasesHerencia
                 Cuenta= "smamani",
                 Password = "12477",
                 Nombre = "Saul",
-                Sueldo = 1234
+                Sueldo = 1234,
+                MateriaDicta = "Algebra",
+                Celular = 65483145
             });
             listaDocentes.Add(new Docente()
             {
                 Cuenta = "sperez",
                 Password = "12477",
                 Nombre = "Ana",
-                Sueldo = 123
+                Sueldo = 123,
+                MateriaDicta = "quimica",
+                Celular = 65847912
             });
             listaDocentes.Add(new Docente()
             {
                 Cuenta = "scarla",
                 Password = "12477",
                 Nombre = "Carla",
-                Sueldo = 12
+                Sueldo = 12,
+                MateriaDicta = "fisica 1",
+                Celular = 32569866
             });
 
             listaDocentes.Add(new Docente()
@@ -47,7 +53,9 @@ namespace ClasesHerencia
                 Cuenta = "lidia",
                 Password = "12477",
                 Nombre = "Lidia",
-                Sueldo = 23
+                Sueldo = 23,
+                MateriaDicta = "calculo",
+                Celular = 69587411
             });
 
             listaDocentes.Add(new Docente()
@@ -55,7 +63,9 @@ namespace ClasesHerencia
                 Cuenta = "jOSE",
                 Password = "12477",
                 Nombre = "Jose",
-                Sueldo = 12
+                Sueldo = 12,
+                MateriaDicta = "ecuaciones diferenciales",
+                Celular = 65489722
             });
 
              listaDocentes.Add(new Docente()
@@ -63,26 +73,50 @@ namespace ClasesHerencia
                 Cuenta = "Lisa",
                 Password = "12477",
                 Nombre = "lisa",
-                Sueldo = 23
-            });
+                Sueldo = 23,
+                 MateriaDicta = "progra 3",
+                 Celular = 32165847
+             });
 
              listaDocentes.Add(new Docente()
             {
                 Cuenta = "Lidy",
                 Password = "12477",
                 Nombre = "lidi",
-                Sueldo = 230
-            });
+                Sueldo = 230,
+                 MateriaDicta = "estructura de computadores",
+                 Celular = 98745245
+             });
 
             listaDocentes.Add(new Docente()
             {
                 Cuenta = "Pepe",
                 Password = "12477",
                 Nombre = "pepe",
-                Sueldo = 54
+                Sueldo = 54,
+                MateriaDicta = "fluidos",
+                Celular = 65481364
             });
 
+            listaDocentes.Add(new Docente()
+            {
+                Cuenta = "Rubenmm",
+                Password = "65487",
+                Nombre = "Ruben",
+                Sueldo = 5400,
+                MateriaDicta = "dibujo",
+                Celular = 67252550
+            });
 
+            listaDocentes.Add(new Docente()
+            {
+                Cuenta = "guzmanhC",
+                Password = "9875645",
+                Nombre = "Cesar",
+                Sueldo = 7800,
+                MateriaDicta = "transformadas",
+                Celular = 71103741
+            });
             MostrarLista(listaDocentes);
 
             Double promedio = getPromedio(listaDocentes);

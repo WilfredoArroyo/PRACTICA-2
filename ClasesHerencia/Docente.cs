@@ -12,10 +12,12 @@ namespace ClasesHerencia
         /// Sueldo del docente modificado
         /// </summary>
         public decimal Sueldo { get; set; }
+        public string MateriaDicta { get; set; }
+        public int Celular { get; set; }
 
         public override string ToString()
         {
-            return $"Cuenta: {Cuenta} | Pass: {Password} | Nombre: {Nombre} | Sueldo: {Sueldo}";
+            return $"Cuenta: {Cuenta} | Pass: {Password} | Nombre: {Nombre} | Sueldo: {Sueldo} | Materia Que Dicta: {MateriaDicta} | Celular: {Celular}";
         }
     }
 }
