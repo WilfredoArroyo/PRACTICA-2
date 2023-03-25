@@ -19,6 +19,11 @@ namespace ClasesHerencia
             estudiante.login("jperez", "123456");
             estudiante.login();
 
+            Conserje conserje = new Conserje();
+            conserje.Nombre = "JUAN";
+            conserje.Sueldo = 2500;
+            conserje.Horas = 8;
+
             //Listas en ves de Arrays en .Net C#
             List<Docente> listaDocentes = new List<Docente>();
             listaDocentes.Add(new Docente() {
